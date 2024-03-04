@@ -1,0 +1,101 @@
+{
+    "QECCs": [
+      {
+        "QRep": {
+          "qubit overhead": "d",
+          "error threshold": "0.3",
+          "error protection": ["bit-flip"],
+          "decoding": "2",
+          "transversal gate": "none",
+          "scalability": "no",
+          "realization": ["simulation", "superconducting", "trapped-ion", "liquid-state-nmr", "nv-diamond"],
+          "complexity": "1"
+        }
+      },
+      {
+        "Shor": {
+          "qubit overhead": "9",
+          "error threshold": "0.3",
+          "error protection": ["bit-flip", "phase-flip",  "all-pauli"],
+          "decoding": "2",
+          "transversal gate": "none",
+          "scalability": "no",
+          "realization": ["simulation", "trapped-ion", "optical-system"],
+          "complexity": "2"
+        }
+      },
+      {
+        "Steane": {
+          "qubit overhead": "7",
+          "error threshold": "0.2",
+          "error protection": ["bit-flip", "phase-flip", "all-pauli"],
+          "decoding": "2",
+          "transversal gate": "1",
+          "scalability": "yes",
+          "realization": ["simulation", "trapped-ion", "rydberg-atom"],
+          "complexity": "2"
+        }
+      },
+      {
+        "Toric": {
+          "qubit overhead": "(d^2)",
+          "error threshold": "0.01",
+          "error protection": ["bit-flip", "phase-flip", "all-pauli"],
+          "decoding": "12",
+          "transversal gate": "3",
+          "scalability": "yes",
+          "realization": ["simulation", "ising-anyons"],
+          "complexity": "5"
+        }
+      },
+      {
+        "Surface": {
+          "qubit overhead": "(d^2)",
+          "error threshold": "0.018",
+          "error protection": ["bit-flip", "phase-flip", "all-pauli"],
+          "decoding": "12",
+          "transversal gate": "3",
+          "scalability": "yes",
+          "realization": ["simulation", "superconducting", "rydberg-atom", "ising-anyons"],
+          "complexity": "4"
+        }
+      },
+      {
+        "BaconShor": {
+          "qubit overhead": "(d^3)",
+          "error threshold": "0.00194",
+          "error protection": ["bit-flip", "phase-flip", "all-pauli"],
+          "decoding": "3",
+          "transversal gate": "2",
+          "scalability": "yes",
+          "realization": ["simulation", "trapped-ion"],
+          "complexity": "3"
+        }
+      },
+      {
+        "3DColor": {
+          "qubit overhead": "((3*d-1)^2)/4",
+          "error threshold": "0.0126",
+          "error protection": ["bit-flip", "phase-flip", "all-pauli"],
+          "decoding": "5",
+          "transversal gate": "3",
+          "scalability": "yes",
+          "realization": ["simulation"],
+          "complexity": "6"
+        }
+      },
+      {
+        "HeavyHexagon": {
+          "qubit overhead": "((5*d^2-2*d-1)/2)",
+          "error threshold": "0.045",
+          "error protection": ["bit-flip", "phase-flip", "all-pauli"],
+          "decoding": "3",
+          "transversal gate": "3",
+          "scalability": "yes",
+          "realization": ["simulation", "superconducting"],
+          "complexity": "6"
+        }
+      }
+    ]
+  }
+  

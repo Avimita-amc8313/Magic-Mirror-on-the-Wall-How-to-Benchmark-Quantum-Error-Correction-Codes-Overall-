@@ -1,0 +1,37 @@
+{
+    "situations": [
+      {
+        "situation": "scenario1",
+        "qType": "superconducting",
+        "maxSpare": "100",
+        "qOrig": "1",
+        "multiQGate": "no",
+        "errType": "bit-flip",
+        "depErr": "1E-4",
+        "gateErr": "1E-3",
+        "readErr": "1E-2"
+      },
+      {
+        "situation": "scenario2",
+        "qType": "rydberg-atom",
+        "maxSpare": "600",
+        "qOrig": "2",
+        "multiQGate": "yes",
+        "errType": "all-pauli",
+        "depErr": "1E-4",
+        "gateErr": "1E-3",
+        "readErr": "1E-2"
+      },
+      {
+        "situation": "scenario3",
+        "qType": "simulation",
+        "maxSpare": "1500",
+        "qOrig": "5",
+        "multiQGate": "no",
+        "errType": "phase-flip",
+        "depErr": "1E-3",
+        "gateErr": "1E-2",
+        "readErr": "1E-1"
+      }
+    ]
+  }
